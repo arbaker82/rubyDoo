@@ -1,3 +1,9 @@
+   html {
+    
+    background: linear-gradient(red,rgb(0, 0, 0));
+
+   }
+   
    .white-text {
        
         color: antiquewhite;
@@ -7,32 +13,21 @@
    
    h1 {
         
-        background-color: rgb(127, 108, 102);
+        background-color: rgba(0, 0, 0, 0.237);
         text-align: center;
         
     }    
     
     body {
     
-       background-color: red;  
        text-align: center;
-        
-    
+       
     }
 
-    .simple-linear {
-
-        background: linear-gradient(red, black);
-   
-    }
-    
-    
     .gallery {
 
         display: flex;
         
-       
-    
     }
 
     .gallery img {
@@ -45,7 +40,7 @@
 
     .gallery img:hover {
 
-        transform: scale(0.9);
+        transform: scale(0.8);
     }
     
     ul {
@@ -58,6 +53,6 @@
     footer {
         
         text-align: center;
-        background-color: rgba(127, 108, 102);
+        background-color: rgb(0, 0, 0);
     
     }
