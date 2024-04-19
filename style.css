@@ -9,20 +9,28 @@
         
         background-color: rgb(127, 108, 102);
         text-align: center;
+        
     }    
     
     body {
     
-        background-color: rgba(255, 0, 0, 0.87);
-        text-align: center;
+       background-color: red;  
+       text-align: center;
         
     
     }
 
+    .simple-linear {
+
+        background: linear-gradient(red, black);
+   
+    }
+    
+    
     .gallery {
 
         display: flex;
-        justify-content: center;
+        
        
     
     }
