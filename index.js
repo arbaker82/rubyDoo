@@ -1,3 +1,5 @@
+alert("Thank you for visiting Ruby-Doo's website!!")
+
 document.addEventListener('DOMContentLoaded', () => {
     // Select all images in the gallery
     const images = document.querySelectorAll('.gallery img');
