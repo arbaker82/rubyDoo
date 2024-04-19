@@ -1,4 +1,4 @@
-alert("Thank you for visiting Ruby-Doo's website!!")
+alert("BARK BARK BARK!! :)")
 
 document.addEventListener('DOMContentLoaded', () => {
     // Select all images in the gallery
