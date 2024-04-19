@@ -34,7 +34,7 @@
 
         max-width: 100%;
         height: auto;
-        transform: scale(0.6);
+        transform: scale(0.7);
         transition: transform 0.2s ease;
         border: 2px solid #fff;
     
@@ -42,7 +42,7 @@
 
     .gallery img:hover {
 
-        transform: scale(0.8);
+        transform: scale(0.9);
     }
     
     ul {
