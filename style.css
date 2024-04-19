@@ -19,6 +19,27 @@
     
     }
 
+    .gallery {
+
+        display: flex;
+        justify-content: center;
+       
+    
+    }
+
+    .gallery img {
+
+        max-width: 100%;
+        height: auto;
+        transform: scale(0.6);
+        transition: transform 0.2s ease;
+    }
+
+    .gallery img:hover {
+
+        transform: scale(0.9);
+    }
+    
     ul {
         
         text-align: left;
