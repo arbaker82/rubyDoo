@@ -19,6 +19,7 @@
         text-align: center;
         font-size: xxx-large;
         text-shadow: 4px 4px black;
+        padding: 15px;
     }    
     
     
@@ -29,6 +30,7 @@
         border: 2px solid antiquewhite;
         border-radius:10px;
         text-shadow: 2px 2px black;
+        padding: 15px;
     }    
     
     body {
@@ -67,10 +69,11 @@
     }
 
     footer {
-        
-        text-align: center;
+        display: flex;
+        justify-content: center;
         background-color: rgba(188, 5, 5, 0.919);
-        border: 2px solid antiquewhite;
+        border: 1px solid antiquewhite;
         border-radius: 10px;
+        padding: 35px;
         text-shadow: 2px 2px black;
     }
