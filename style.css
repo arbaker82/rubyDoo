@@ -52,18 +52,22 @@
     .gallery img:hover {
 
         transform: scale(0.9);
+    
     }
     
     ul {
         font-size: x-large;
         text-align: left;
         
-        
     }
 
     footer {
         
         text-align: center;
+<<<<<<< HEAD
         background-color: rgb(104, 0, 0);
+=======
+        background-color: rgb(110, 22, 22);
+>>>>>>> b03407fcdeeaff63dc724f6c0a9c638d4e52c7f2
     
     }
