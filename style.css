@@ -8,11 +8,24 @@
    .white-text {
       
         color: antiquewhite;
-           
+        text-decoration: none;
+   
     }
-   
-   
-   h1 {
+
+    .link-text {
+        display: flex;
+        justify-content: center;
+        color: antiquewhite;
+    }
+
+    .link-text:hover {
+        
+        color:rgb(16, 205, 16);
+        text-decoration: underline;
+
+    }
+  
+    h1 {
         border: 2px solid antiquewhite;
         border-radius: 10px;
         background-color: rgba(188, 5, 5, 0.919);
@@ -44,16 +57,17 @@
         display: flex;
         justify-content: center;
         color: antiquewhite;
+        text-decoration: none;
+        
     }
 
-    .gallery img {
+     .gallery img {
 
         max-width: 100%;
         height: auto;
         transform: scale(0.7);
         transition: transform 0.2s ease;
        
-    
     }
 
     .gallery img:hover {
