@@ -13,16 +13,19 @@
     }
 
     .link-text {
+        
         display: flex;
         justify-content: center;
         color: antiquewhite;
+        padding: 15px;
+        font-size: larger;
     }
 
     .link-text:hover {
         
-        color:rgb(16, 205, 16);
+        color:rgb(0, 0, 0);
         text-decoration: underline;
-
+        
     }
   
     h1 {
@@ -72,7 +75,7 @@
 
     .gallery img:hover {
 
-        transform: scale(0.9);
+        transform: scale(1);
     
     }
     
@@ -88,6 +91,6 @@
         background-color: rgba(188, 5, 5, 0.919);
         border: 1px solid antiquewhite;
         border-radius: 10px;
-        padding: 35px;
-        text-shadow: 2px 2px black;
+        padding: 25px;
+        font-size: large;
     }
