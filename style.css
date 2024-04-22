@@ -41,12 +41,14 @@
     
     
     h2 {
+        
         font-size: xx-large;
         background-color: rgba(188, 5, 5, 0.919);
         border: 2px solid antiquewhite;
         border-radius:10px;
         text-shadow: 2px 2px black;
         padding: 15px;
+    
     }    
     
     body {
@@ -80,20 +82,28 @@
     }
     
     ul {
+    
         font-size: x-large;
         text-align: left;
         
     }
 
     button {
-        margin: 75px;
-        padding: 15px
+    
+        margin: 25px;
+        padding: 50px
     }
 
   
  footer {
         display: flex;
         justify-content: center;
+        
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        
         background-color: rgba(188, 5, 5, 0.919);
         border: 1px solid antiquewhite;
         border-radius: 10px;
