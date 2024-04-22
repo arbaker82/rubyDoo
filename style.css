@@ -92,23 +92,17 @@
     
         margin: 25px;
         padding: 20px;
-        
+
     }
 
     footer {
         
         display: flex;
         justify-content: center;
-        
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        
-        background-color: rgba(188, 5, 5, 0.919);
+        background-color: rgba(188, 5, 5, 0.684);
         border: 1px solid antiquewhite;
         border-radius: 10px;
-        padding: 25px;
+        padding: 10px;
         font-size: large;
     
     }
