@@ -2,8 +2,7 @@
     
     background: linear-gradient(rgba(255, 0, 0, 0.863),rgb(0, 0, 0));
     
-
-   }
+}
    
    .white-text {
       
@@ -19,6 +18,7 @@
         color: antiquewhite;
         padding: 15px;
         font-size: larger;
+    
     }
 
     .link-text:hover {
@@ -29,6 +29,7 @@
     }
   
     h1 {
+        
         border: 2px solid antiquewhite;
         border-radius: 10px;
         background-color: rgba(188, 5, 5, 0.919);
@@ -36,6 +37,7 @@
         font-size: xxx-large;
         text-shadow: 4px 4px black;
         padding: 15px;
+    
     }    
     
     
