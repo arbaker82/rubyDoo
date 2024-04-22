@@ -29,5 +29,5 @@ document.addEventListener('DOMContentLoaded', function () {
     nextBtn.addEventListener('click', showNextImage);
     prevBtn.addEventListener('click', showPrevImage);
 
-    setInterval(showNextImage, 30000);
+    setInterval(showNextImage, 90000);
 });
