@@ -68,7 +68,7 @@
 
         max-width: 100%;
         height: auto;
-        transform: scale(0.7);
+        transform: scale(0.9);
         transition: transform 0.2s ease;
        
     }
@@ -85,7 +85,12 @@
         
     }
 
-    footer {
+    button {
+        padding: 15px
+    }
+
+  
+ footer {
         display: flex;
         justify-content: center;
         background-color: rgba(188, 5, 5, 0.919);
