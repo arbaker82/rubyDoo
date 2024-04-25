@@ -40,8 +40,6 @@
     
     }    
     
-    
-    
     h2 {
         
         font-size: xx-large;
@@ -83,18 +81,31 @@
     
     }
     
+    button {
+
+        background-color: rgba(188, 5, 5, 0.919);
+        color: antiquewhite;
+        border: none;
+        border-radius: 5 px;
+        padding: 10px 20px;
+        margin: 10px;
+        cursor: pointer;
+        font-size: large;
+        transition: background-color 0.3s ease;
+
+    }
+
+    button:hover {
+
+        background-color: rgb(255, 4, 4);
+   
+    }
+    
     ul {
     
         font-size: x-large;
         text-align: left;
         
-    }
-
-    button {
-    
-        margin: 25px;
-        padding: 20px;
-
     }
 
     footer {
