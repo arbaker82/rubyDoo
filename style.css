@@ -4,7 +4,20 @@
     
 }
    
-   .white-text {
+   #slider {
+
+    text-align: center;
+   
+}
+
+    #slider img {
+        
+        display: inline-block;
+        margin: 0 auto;
+    
+    }
+
+    .white-text {
       
         color: antiquewhite;
         text-decoration: none;
