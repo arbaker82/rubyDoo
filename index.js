@@ -18,4 +18,7 @@ function nextSlide() {
 
 }
 
+
+nextSlide();
+
 setInterval(nextSlide, 5000);
