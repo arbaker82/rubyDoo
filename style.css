@@ -1,7 +1,7 @@
    html {
     
     background: linear-gradient(rgba(255, 0, 0, 0.863),rgb(0, 0, 0));
-    
+   
 }
    
    #slider {
@@ -50,7 +50,7 @@
         font-size: xxx-large;
         text-shadow: 4px 4px black;
         padding: 15px;
-    
+        
     }    
     
     h2 {
@@ -94,17 +94,25 @@
     
     }
     
+    #quote {
+      
+        font-size: xx-large;
+
+    }
+    
+    
     button {
 
         background-color: rgba(188, 5, 5, 0.919);
         color: antiquewhite;
         border: none;
         border-radius: 5 px;
-        padding: 10px 20px;
+        padding: 50px 70px;
         margin: 10px;
         cursor: pointer;
-        font-size: large;
+        font-size: larger;
         transition: background-color 0.3s ease;
+        overflow: hidden;
 
     }
 
@@ -120,7 +128,7 @@
         text-align: left;
         
     }
-
+    
     footer {
         
         display: flex;
