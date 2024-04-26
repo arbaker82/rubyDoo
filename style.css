@@ -14,8 +14,7 @@
     #slider {
 
         text-align: center;
-        transform: scale(0.7);
-        
+       
     }
     
     #slider img {
@@ -92,7 +91,7 @@
 
         max-width: 100%;
         height: auto;
-        transform: scale(0.7);
+        transform: scale(0.8);
         transition: transform 0.2s ease;
        
     }
@@ -113,7 +112,6 @@
     
     #quote-container {
        
-        
         margin-bottom: 500px;
 
     }
@@ -124,13 +122,14 @@
         color: antiquewhite;
         border: 1px solid antiquewhite;
         border-radius: 5 px;
-        padding: 50px 50px;
+        padding: 20px 20px;
         margin: 10px;
         cursor: pointer;
         font-size: larger;
         transition: background-color 0.3s ease;
         overflow: hidden;
         text-shadow: 2px 2px black;
+    
     }
 
     button:hover {
@@ -142,20 +141,16 @@
     ul {
     
         font-size: x-large;
-        text-align: left    ;
+        text-align: left;
         
     }
     
     footer {
         
-        position: relative;
-        bottom: 0;
-        left: 0;
         width: 100%;
         display: flex;
         justify-content: center;
-        align-items: row;
-        background-color: rgb(183, 0, 0);
+        background-color: rgba(188, 5, 5, 0.919);
         border: 1px solid antiquewhite;
         border-radius: 10px;
         padding: 20px;
