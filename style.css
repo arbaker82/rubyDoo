@@ -7,6 +7,8 @@
    
     body {
 
+        text-align: center;
+        min-height: 100%;
 
     }
 
@@ -71,12 +73,6 @@
     
     }    
     
-    body {
-
-       text-align: center;
-       
-    }
-
     .gallery {
 
         display: flex;
