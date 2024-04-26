@@ -92,8 +92,6 @@
 
      .gallery img {
         
-        display: inline-block;
-        margin: 0 auto;
         max-height: 100%;
         max-width: 100%;
         transform: scale(0.9);
@@ -128,7 +126,7 @@
         border: 1px solid antiquewhite;
         border-radius: 5 px;
         padding: 20px 20px;
-        margin: 10px;
+        margin: 5px;
         cursor: pointer;
         font-size: larger;
         transition: background-color 0.3s ease;
