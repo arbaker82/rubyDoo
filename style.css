@@ -16,6 +16,8 @@
     #slider {
 
         text-align: center;
+        height: 500px;
+        overflow: hidden;
        
     }
     
@@ -23,6 +25,8 @@
         
         display: inline-block;
         margin: 0 auto;
+        max-height: 100%;
+        max-width: 100;
     
     }
 
@@ -76,6 +80,9 @@
     
     .gallery {
 
+        text-align: center;
+        height: 600px;
+        overflow: hidden;
         display: flex;
         justify-content: center;
         color: antiquewhite;
@@ -84,10 +91,12 @@
     }
 
      .gallery img {
-
+        
+        display: inline-block;
+        margin: 0 auto;
+        max-height: 100%;
         max-width: 100%;
-        height: auto;
-        transform: scale(0.8);
+        transform: scale(0.9);
         transition: transform 0.2s ease;
        
     }
