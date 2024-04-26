@@ -2,14 +2,22 @@
     
     background: linear-gradient(rgba(255, 0, 0, 0.863),rgb(0, 0, 0));
    
-}
+    }
    
-   #slider {
+    body {
 
-    text-align: center;
-   
-}
+        height: 100%;
+        margin: 0;
 
+    }
+
+    #slider {
+
+        text-align: center;
+        transform: scale(0.7);
+        
+    }
+    
     #slider img {
         
         display: inline-block;
@@ -31,12 +39,13 @@
         color: antiquewhite;
         padding: 15px;
         font-size: larger;
+        text-shadow: 2px 2px rgb(0, 0, 0);
     
     }
 
     .link-text:hover {
         
-        color:rgb(0, 0, 0);
+        color:rgb(255, 0, 0);
         text-decoration: underline;
         
     }
@@ -83,7 +92,7 @@
 
         max-width: 100%;
         height: auto;
-        transform: scale(0.9);
+        transform: scale(0.7);
         transition: transform 0.2s ease;
        
     }
@@ -97,23 +106,31 @@
     #quote {
       
         font-size: xx-large;
-
+        text-shadow: 2px 2px black;
+    
     }
     
+    
+    #quote-container {
+       
+        
+        margin-bottom: 500px;
+
+    }
     
     button {
 
         background-color: rgba(188, 5, 5, 0.919);
         color: antiquewhite;
-        border: none;
+        border: 1px solid antiquewhite;
         border-radius: 5 px;
-        padding: 50px 70px;
+        padding: 50px 50px;
         margin: 10px;
         cursor: pointer;
         font-size: larger;
         transition: background-color 0.3s ease;
         overflow: hidden;
-
+        text-shadow: 2px 2px black;
     }
 
     button:hover {
@@ -125,18 +142,23 @@
     ul {
     
         font-size: x-large;
-        text-align: left;
+        text-align: left    ;
         
     }
     
     footer {
         
+        position: relative;
+        bottom: 0;
+        left: 0;
+        width: 100%;
         display: flex;
         justify-content: center;
-        background-color: rgba(188, 5, 5, 0.684);
+        align-items: row;
+        background-color: rgb(183, 0, 0);
         border: 1px solid antiquewhite;
         border-radius: 10px;
-        padding: 10px;
+        padding: 20px;
         font-size: large;
-    
+        
     }
