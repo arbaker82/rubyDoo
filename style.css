@@ -147,10 +147,11 @@
     
     footer {
         
+        max-width: 100%;
         display: flex;
         justify-content: center;
         background-color: rgba(188, 5, 5, 0.919);
-        border: 1px solid antiquewhite;
+        border: 2px solid antiquewhite;
         border-radius: 10px;
         padding: 20px;
         font-size: large;
